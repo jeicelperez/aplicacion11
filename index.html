@@ -1,0 +1,383 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>segunda Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp11.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/tema31.jpg','imagenes/tema22.jpg')">
+<div data-role="page" id="Principal" data-theme="a" >
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Carreras que me gustaria estudiar</h1>
+   </div>
+<div>  
+<!-- Start WOWSlider.com -->
+<iframe src="visor/wowslider.html" style="width:640px;height:123px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>psicologia</h2>
+   </a>
+</li>
+<li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>ingenieria en computación</h2>
+   </a>
+</li>
+<li clas="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Lenguas extrangeras</h2>
+</a>
+  </li>
+  </ul>
+</div>
+<div data-role="collapsible" data-content-theme="false" >
+         <h1>Desarrollado por:</h1>
+          <div>
+          <h2>Jeicel Pérez Zapata</h2>
+          <p>CBTis N.16</p>
+          <p> 4 "H"</p>
+
+          <br>
+          </div>
+       </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+  <img src="imagenes/mdpi.png" width="46" height="46">
+ </div>
+<div>
+  <h4>Aplicacion mis carreras</h4>
+  <h4>JEICEL PÉREZ ZAPATA</h4>
+  </div>
+</div>
+</div>
+</div>  
+      
+        
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>psicologia </h1>
+    </div>
+   <div data-role="content" align="center">
+   <div>
+  <p> La psicología1 o sicología2 (literalmente «estudio o tratado del alma»; del griego clásico ψυχή, transliterado psykhé, «psique», «alma», «actividad mental», y λογία, logía, «tratado» o «estudio») es una profesión y una disciplina académica3 que se define como la ciencia que trata la conducta y los procesos mentales de los individuos,1 3 4 5 6 cuyo campo de estudio abarca todos los aspectos de la experiencia humana.7 Existen diversas perspectivas psicológicas, cada una con sus propias teorías y metodologías, y en comparativa pueden coincidir, influirse, solaparse o incluso ser contradictorias e incompatibles;8 esta variedad da pie a múltiples acepciones y abordajes.9 Algunos enfoques —como en el humanismo— consideran que el método científico no es adecuado para investigar la conducta; otros tales como el conductismo lo emplean para comportamientos observables que pueden ser objetivamente medidos.5</p>
+ <img src="imagenes/tema12.jpg" width="200" height="200"> 
+<p>Por medio de sus diversos enfoques, la psicología explora conceptos como la percepción, la atención, la motivación, la emoción, el funcionamiento del cerebro, la inteligencia, el pensamiento, la personalidad, las relaciones personales, la conciencia y la inconsciencia. La psicología emplea métodos empíricos cuantitativos y cualitativos de investigación para analizar el comportamiento. También se pueden encontrar, especialmente en el ámbito clínico o de consultoría, otro tipo de métodos cualitativos y mixtos. Mientras que el conocimiento psicológico es empleado frecuentemente en la evaluación o tratamiento de las psicopatologías, en las últimas décadas los psicólogos también están siendo empleados en los departamentos de recursos humanos de las organizaciones, en áreas relacionadas con el desarrollo infantil y del envejecimiento, los deportes, los medios de comunicación, el mundo del derecho y las ciencias forenses. Aunque la mayor parte de los psicólogos están involucrados profesionalmente en actividades terapéuticas (clínica, consultoría, educación), una parte también se dedica a la investigación, desde las universidades, sobre un amplio rango de temas relacionados con el comportamiento y el pensamiento humano.</p>
+ <img src="imagenes/tema13.jpg" width="200" height="200">
+
+<p>La psicología es la disciplina que investiga sobre los procesos mentales de personas y animales. La palabra proviene del griego: psico- (actividad mental o alma) y -logía (estudio). Esta disciplina analiza las tres dimensiones de los mencionados procesos: cognitiva, afectiva y conductual.</p>
+
+<p>La psicología moderna se ha encargado de recopilar hechos sobre las conductas y las experiencias de los seres vivos, organizándolos en forma sistemática y elaborando teorías para su comprensión. Estos estudios permiten explicar su comportamiento y hasta en algunos casos, predecir sus acciones futuras.
+A aquellas personas que desarrollan el estudio de la psicología se las denomina psicólogos. Esto significa, aquellos que analizan el comportamiento de los seres vivos desde un enfoque científico. Sigmund Freud, Carl Jung y Jean Piaget son considerados como algunos de los psicólogos pioneros.</p>
+
+<p>La metodología de estudio de la psicología se divide en dos grandes ramas: aquella que entiende esta disciplina como una ciencia básica (también denominada experimental) y emplea una metodología científica-cuantitativa (contrasta hipótesis con variables que pueden cuantificarse en el marco de un entorno de experimentación), y otra que busca comprender el fenómeno psicológico mediante metodologías cualitativas que enriquezcan la descripción y ayuden a comprender los procesos.<br>
+Existen muchas corrientes psicológicas, pero seguramente la escuela de la psicología más conocida es la cognitiva, que estudia el acto de conocimiento (la forma en que se comprende, organiza y utiliza la información recibida a través de los sentidos). Así, la psicología cognitiva estudia funciones como la atención, la percepción, la memoria y el lenguaje.</p>
+
+ <img src="imagenes/tema14.jpg" width="200" height="200">
+ 
+<p>La psicología puede dividirse en psicología básica (su función es generar nuevos conocimientos respecto a los fenómenos psicológicos) y psicología aplicada (tiene como objetivo la solución de problemas prácticos a través de la aplicación de los conocimientos producidos por la psicología básica).</p>
+
+<p>Por otro lado, es necesario aclarar que la psicología es una ciencia en constante desarrollo y dados los condicionantes sociales y morales, va transformándose en base a la madurez de las sociedades a lo largo del tiempo. En la actualidad, la psicología se divide en varias ramas, las cuales se encuentran conectadas en tanto y en cuanto intentan dar respuesta a lo mismo, el por qué de las acciones y los efectos que las experiencias puedan tener en un ser vivo o grupo para condicionar su existencia. Algunas de las áreas de la psicología son:</p>
+
+<p>La psicología fisiológica es la rama de esta ciencia que se dedica a estudiar el funcionamiento del cerebro y el sistema nervioso</p>
+
+<p>La psicología experimental estudia la percepción y la memoria utilizando para ello técnicas de laboratorio específicas que ayuden al discernimiento de la conducta humana en este aspecto.</p>
+
+<p>Se llama psicología social a la rama que se encarga de analizar las influencias que marca el entorno social sobre un individuo, las cuales se estudian a partir de las reacciones que ese individuo tiene frente a las experiencias que le acontecen.</p>
+
+<p>Psicología industrial es la parte de la psicología que estudia el entorno laboral de un grupo de trabajadores e intentan buscar formas de comprender lo que puede ser nocivo dentro de la actividad que se desarrolla, buscando soluciones a esos problemas.</p>
+
+<p>Psicología clínica se llama la rama que se encarga de estudiar y ayudar a aquellas personas que tienen inconvenientes para enfrentar su vida normalmente, como consecuencia de un trastorno mental o una afección particular.</p>
+
+<p>En conclusión, la psicología puede entenderse como la ciencia que se ocupa de atender cuestiones que atañen al espíritu, a la forma de sentir de un individuo o un pueblo, sus aspectos morales y la forma en la que se desenvuelven con el entorno. Dicho de otro modo, al estudio de la vida subjetiva, y de las relaciones que se establecen entre el aspecto psíquico y físico de los individuos (sentimientos, ideología, reacciones, tendencias, instintos).</p>
+
+
+ 
+ <div data-role="collapsible" data-content-theme="false" >
+         <h1>Campo laboral</h1>
+          <div>
+     
+
+<p>Sicología Clínica: Salud mental y rehabilitación; Trabajo en organismos de atención a menores; Clínicas, hospitales y/o consultorios particulares; Evaluación diagnóstica y Entrevistas clínicas.</p>
+
+<p>Sicología Educativa: Diseño y optimización de procesos de enseñanza y Evaluación neuro-sicodiagnóstica con caos de niños con problemas escolares.</p>
+
+<p>Sicología Industrial: Áreas de recursos humanos y/o mercadotecnia de distintas empresas; Programas de reclutamiento, selección y capacitación de personal e investigación de variables que influyen en la conducta del consumidor.</p>
+
+<p>Sicología Social: Diseño e implementación de programas sociales y Trabajo en instituciones públicas, centros comunitarios y asociaciones civiles.</p>
+
+<p>Centro de Salud, Clínicas de Instituciones de Asistencia Social, Institutos de Investigación Clínica, Centros de Educación Especial, Instituciones Educativas (procesos de enseñanza-aprendizaje, orientador vocacional), Empresas (relación del individuo con su medio laboral), Centros de Desarrollo Infantil, Instituciones de Capacitación y Adiestramiento, así como en Consultorios Privados de Asesoría.</p>
+
+<p>Trabajo en organismos gubernamentales dedicados a la salud (SEJ, DIF, IMSS, ISSSTE.)</p>
+<img src="imagenes/tema15.jpg" width="200" height="200">
+
+<p>En instituciones educativas, en las áreas de Dirección, Administración, Investigación, Asesoría y Evaluación Educativa así como la Docencia.</p>
+
+<p>Unidades de Desarrollo Personal.</p>
+
+<p>Sicología clínica a través de terapia a individuos y grupos (niños, adolescentes, familias, comunidades y adultos mayores.)</p>
+
+<p>Asesoría a organizaciones, escuelas y grupos humanos para mejorar la calidad de vida y salud de las instituciones.</p>
+
+<p>Acompañamiento a grupos urbanos, rurales e indígenas en la integración intercultural y desarrollo de virtudes sociales para la convivencia de calidad.</p>
+
+<p>Tu propia empresa, oficina o despacho.</p>
+
+<p>En las diferentes áreas de Desarrollo Organizacional, inducción y selección de personal, mejoramiento del clima laboral y desarrollo humano.<p>
+
+<p>Podrás incorporarse a los campos profesionales laborales relacionados con las áreas de:<br> Salud, Educación, Social Comunitaria, Organización, Producción y Consumo y Ambiental.</p>
+ 
+<p>Realizando las funciones de:</p>
+
+<img src="imagenes/tema16.jpg" width="200" height="200">
+
+<p>Evaluación psicológica de la conducta, con fines de caracterización, comprensión, explicación y toma de decisiones.</p>
+
+<p>Promoción de la calidad de vida.</p>
+
+<p>Prevención de alteraciones, riesgos comportamentales y/o disfunciones del comportamiento humano.</p>
+<p>Atención resolutoria</p>
+
+<p>Investigación aplicada en el campo del comportamiento humano.</p>
+          <br>
+          </div>
+       </div>
+ 
+ 
+ <div data-role="collapsible" data-content-theme="false" >
+         <h1>universidades</h1>
+          <div>
+          <ul>
+        <li>  <a href="http://anahuacpuebla.org/escuelas-y-programas/psicologia/">Universidad Anahuac Puebla</a> </li><br>
+          <li><a href="http://www.upaep.mx/index.php?option=com_content&view=article&id=169&Itemid=167">UPAEP</a></li><br>
+          <li><a href="http://www.uvp.mx/ciencias-salud/psicologia">UVP</a></li>
+          </ul>
+          <br>
+          </div>
+       </div>
+ </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+  <img src="imagenes/mdpi.png" width="46" height="46">
+ </div>
+<div>
+  <h4>Aplicacion mis carreras</h4>
+  <h4>JEICEL PÉREZ ZAPATA</h4>
+  </div>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>ingenieria en computación</h1>
+ </div>
+<div data-role="content" align="center">
+  <div>
+<p>La ingeniería en computación estudia el desarrollo de sistemas automatizados y el uso de los lenguajes de programación; de igual forma se enfoca al análisis, diseño y la utilización del hardware y software para lograr la implementación de las más avanzadas aplicaciones industriales y telemáticas.</p>
+
+<p>Es el área de trabajo que se concentra en el estudio de situaciones susceptibles de automatizar mediante el uso de sistemas de computación y componentes digitales, a fin de determinar la factibilidad técnica, la conveniencia operacional, la factibilidad económica y la evaluación de alternativas existentes para desarrollar la solución más adecuada.</p>
+
+<p>La ingeniería en computación se ocupa de la naturaleza y características de la información, su estructura y clasificación, su almacenamiento y recuperación y los diversos procesos a los que puede someterse en forma automatizada. Se interesa igualmente por las propiedades de las máquinas físicas que realizan estas operaciones para producir sistemas de procesamiento de datos eficientes. Trata todo lo relacionado con la utilización de computadoras digitales.</p>
+
+<p>La respuesta a las preguntas: ¿Qué es lo que puede ser eficientemente automatizado? y ¿Cómo se puede lograr eso de la mejor manera, sobre la base de los recursos disponibles?, compete a la ingeniería en computación.3</p>
+<img src="imagenes/tema21.jpg" width="216" height="148" id="Image">
+<h2>Perfil profesional</h2>
+<p>El ingeniero en computación representa una nueva perspectiva en el campo laboral, ya que abarca distintos aspectos de la electrónica y la informática. Sus funciones involucran de forma directa o indirecta el uso del computador, siendo ésta su herramienta fundamental de trabajo.</p>
+
+<p>En el área del hardware, podrá utilizar y adaptar el computador como una herramienta para el control de procesos industriales, realizando interfaces entre el sistema y el computador, de modo que sea posible el monitoreo de las tareas en tiempo real. Asimismo, estará dotado de un amplio conocimiento sobre sistemas automatizados basados en robótica, pudiendo diseñar circuitos de lógica digital para liberar al hombre de la realización de tediosos procesos repetitivos o de actividades que impliquen un riesgo para su vida.2</p>
+
+<p>Los ingenieros en computación son capaces de aplicar la tecnología de avanzada en la solución de los problemas y estrategias gerenciales, con el fin de utilizar todos los recursos eficazmente. Emplea sus conocimientos como herramienta para crear y modificar sistemas cibernéticos, además de evaluar, modificar, diseñar, actualizar y supervisar los sistemas de operación a fin de ofrecer óptimo servicio en cumplimiento de las necesidades ocasionadas por la dinámica de las organizaciones.1</p>
+
+<p>Es un profesional preparado en las áreas correspondientes a estructuras y sistemas de computación, estructuras y procesos de información, investigación operativa y modelos matemáticos.3</p>
+
+<p>Los ingenieros en computación tienen un entrenamiento extensivo en áreas de Ingeniería Eléctrica y ciencias en computación, que son combinaciones atractivas para los futuros contratantes y permiten al estudiante continuar sus estudios en instituciones de postgrado.</p>
+<img src="imagenes/sust2.jpg" width="275" height="184" id="Image2">
+<h2>Habilidades desarrolladas</h2>
+<p>Analizar y diseñar sistemas de cómputo (hardware y software).</p>
+<p>Evaluar alternativas de diseño para sistemas de cómputo y diseñar lenguajes de programación y traducción.</p>
+<p>Producir el software y hardware correspondiente a las necesidades requeridas de la empresa.
+Ligar las tecnologías de información con los procesos organizacionales y dirigir proyectos de alta tecnología.</p>
+
+<h2>Área de especialización</h2>
+<p>Su área de especialización es muy amplia pero se puede dividir en las siguientes áreas:</p>
+
+<p>Ingeniería de redes de computadoras: donde analiza, diseña, implementa y desarrolla redes de comunicación, tanto de voz como de datos. En esta área realiza además la administración de las redes y ve por la seguridad de la información.</p>
+<p>Sistemas de información: donde analiza, diseña, simula, implementa y optimiza sistemas de software para el manejo de la información, incluida la administración y seguridad de la misma. Los sistemas van desde bases de datos sencillas hasta aplicaciones de comercio electrónico.</p>
+<p>Sistemas controlados por programas almacenados: donde analiza, diseña, simula, implementa y optimiza sistemas de hardware y software de uso específico en cualquier área de aplicación como lo son las telecomunicaciones y la instrumentación y control.</p>
+<h2>Aplicaciones</h2>
+<p>Actualmente, la ingeniería en computación se ha vuelto parte indispensable de la mayoría de las ciencias y de la vida cotidiana.</p>
+
+<p>A continuación, se listan algunas aplicaciones de la computación relacionadas a la informática:</p>
+<ul>
+
+<li>algoritmos y programación</li>
+<li>bases de datos</li>
+<li>inteligencia artificial</li>
+<li>red de computadoras</li>
+<li>sistemas operativos</li>
+</ul>
+<h2>Desarrollos de la ingeniería en computación</h2>
+<p>La ingeniería en computación ha crecido y madurado en una carrera dinámica, ayudando a propulsar la ola de crecimiento tecnológico en el mundo.</p>>
+
+<p>Algunos de los más recientes desarrollos en la ingeniería en computación incluyen aplicaciones digitales y de microcomputadores, procesamiento de señales digitales, procesamiento de imágenes, telecomunicaciones, arquitectura de computadoras, compatibilidad electromagnética y visión computacional.</p>
+
+<p>Estas áreas son enfatizadas al igual que el diseño de sistemas digitales, diseño de sistemas embebidos, sistemas operativos, y otros temas más convencionales en Ingeniería en Computación. Hay énfasis en el uso extensivo del computador como herramienta para análisis matemático, diseño, análisis de información e instrumentación. La naturaleza repetitiva del ciclo de diseño y la necesidad de realizar simultáneamente la documentación y el desarrollo se enfatizan durante los proyectos en equipo.<p>
+<img src="imagenes/tema23.jpg" width="200" height="200">
+<div data-role="collapsible" data-content-theme="false" >
+         <h1>Campo laboral</h1>
+          <div>
+          <img src="imagenes/descarga.jpg" width="200" height="200">
+   <p>  El ingeniero en computación es un profesional capaz de actuar productivamente en equipos multidisciplinarios, donde demuestra habilidades para la autogestión y la cogestión, además de una conducta de liderazgo empresarial. Puede desempeñarse en las siguientes áreas:</p>
+<ul>
+<li>Empresas, industrias e instituciones públicas y privadas que cuenten con o deseen implantar sistemas computarizados de información y control</li>
+<li>Compañías para el servicio y mantenimiento de software y hardware para sistemas de información y equipos de computación</li>
+<li>Industrias con aplicación de la robótica</li>
+<li>Empresas de apoyo y soporte tecnológico para las telecomunicaciones</li>
+<li>Corporaciones nacionales e internacionales especializadas en la instalación de redes de computadores a gran escala</li>
+<li>Compañías de diseño, programación e implementación de software</li>
+<li>Compañías asesoras de control de procesos industriales computarizados</li>
+<li>Firmas y fundaciones públicas y privadas de investigación científica y tecnológica</li>
+<li>Compañías productoras de bienes de consumo masivo</li>
+<li>Empresas asociadas a la Ingeniería en Computación</li>
+<li>Compañías petroleras e industrias en general</li>
+<li>Instituciones de educación superior</li>
+<li>El ingeniero en computación puede desempeñarse en muchas áreas, debido a la gran flexibilidad que tiene la profesión; y es por esta razón que prácticamente cualquier organización de pequeña, mediana o mayor escala es una fuente de empleo para estos profesionales.</li>
+</ul>
+          <br>
+          </div>
+       </div>
+       <h2>Universidades</h2>
+       <a href="http://www.upaep.mx/index.php?option=com_content&view=article&id=207&Itemid=167">UPAEP</a><br>
+       <a href="http://cmas.siu.buap.mx/portal_pprd/wb/EDUCATIVA/ingenieria_en_ciencias_de_la_computacion_1">BUAP</a>
+       
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+  <img src="imagenes/mdpi.png" width="46" height="46">
+ </div>
+<div>
+  <h4>Aplicacion mis carreras</h4>
+  <h4>JEICEL PÉREZ ZAPATA</h4>
+  </div>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Lenguas extranjeras</h1>
+  </div>
+<div data-role="content" align="center">
+<div>
+  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/tema31.jpg',1)"><img src="imagenes/sus3.jpg" width="370" height="136" id="Image17"></a></p>
+  <P>Una lengua extranjera es una lengua diferente de la lengua materna de una persona.</P>
+
+<P>La persona solamente adquiere esa lengua extranjera si la aprende de manera consciente, ya sea en una escuela, con cursos de idiomas o de manera autodidacta, o bien, en el caso de los niños, cuando el aprendizaje ocurre jugando en un ámbito de lengua extranjera.</P>
+
+<P>Muchos estudios han resaltado el valor de la exposición natural mediante estudios en el extranjero u otras experiencias extra-curriculares (Rehner and Mougeon 2003; Schmidt 2009), sin embargo especialistas están reconociendo que la información transmitida en el salón de clase puede facilitar la adquisición de características muy particulares de la variación sociolingüística (Gutierrez and Fairclough 2006; Howard 2012).</P>  
+
+<P>El dominio de al menos una lengua extranjera es una ventaja en varios ámbitos laborales, por ejemplo: hotelería, comercio internacional, investigación, etc.</P>
+
+ <img src="imagenes/tema32.jpg" width="200" height="200">
+ <div data-role="collapsible" data-content-theme="false" >
+         <h1>Campo laboral</h1>
+          <div>
+          <img src="imagenes/tema33.jpg" width="200" height="200">
+ <p> El egresado podrá desempeñarse tanto en el área empresarial, impartiendo capacitación en los idiomas de inglés, francés e italiano, en la realización de traducciones de documentos comerciales, ofreciendo clases de idiomas en centros educativos ya sea escuelas de educación básica, media superior o en universidades, institutos y academias.</p>
+<ul>
+<li>La aplicación del buen uso y manejo de la lengua española.</li>
+<li>La interpretación simultánea.</li>
+<li>La enseñanza de idiomas.</li>
+<li>La investigación lingüística, en el aula y turística.</li>
+<li>Podrás encargarte de la organización y dirección de un Departamento de Lenguas en un <li><li>plantel educativo. Como docente en instituciones educativas del nivel medio, medio superior y universitario.</li>
+<li>Podrá supervisar también la docencia de las lenguas en otros sectores de la sociedad como por ejemplo:
+<li>Empresas comerciales e industriales para poder proponer posibles soluciones de acuerdo a cada caso.</li>
+
+        <img src="imagenes/tema34.jpg" width="200" height="200">
+<li>Podrás sugerir la implementación de programas de inglés a instituciones docentes como empresas e industrias, necesidades reales de alumnos o personal.</li>
+<li>Instituciones educativas (aula presencial y aula virtual).</li>
+<li>Centros de investigación.</li>
+<li>Dependencias e instituciones en las que se requiera la comunicación en la lengua estudiada.</li>
+<li>Organismos internacionales.</li>
+<li>Embajadas y oficinas de representación en el extranjero.</li>
+<li>Entidades gubernamentales.</li>
+<li>Medios de comunicación y editoriales.</li>
+<li>Centros de autoaprendizaje de idiomas.</li>
+<li>Asesor en la construcción de propuestas para la enseñanza de lenguas extranjeras.
+<li>Investigador educativo.</li>
+<li>Traductor de textos escritos.</li>
+<li>Representante, asesor, autor y vendedor de materiales en la industria editorial.</li>
+<li>Empresario.</li>
+<li>Director de programas de capacitación.</li>
+<li>Promotor en diferentes niveles: a nivel de la Lengua Nativa, en las áreas de didáctica e investigación teórica y práctica de los diversos niveles del lenguaje: fonética-fonología, morfo-sintaxis, semántica, pragmática y semiótica.</li>
+
+
+<li>Lenguas Modernas Extranjeras, está facultado para desplegar las habilidades básicas de la comunicación: lectura-escritura-habla y escucha.</li>
+<li>A nivel de La Literatura y La Estilística, gozarás de elementos para actuar como creador artístico o como crítico literario en los diferentes géneros como lo son la poesía, el drama y la narración.</li>
+</ul>
+          <br>
+          </div>
+       </div>
+        <div data-role="collapsible" data-content-theme="false" >
+         <h1>Universidades</h1>
+          <div>
+
+ <a href="http://www.uvp.mx/artes-humanidades/lenguas-extranjeras">UVP</a><br>
+ <a href="http://www.upaep.mx/index.php?option=com_content&view=article&id=5970&Itemid=167">UPAEP</a><br>
+ <a href="http://www.facultaddelenguas.com/">BUAP</a>
+          </div>
+       </div>
+   </div>
+ </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+  <img src="imagenes/mdpi.png" width="46" height="46">
+ </div>
+<div>
+  <h4>Aplicacion mis carreras</h4>
+  <h4>JEICEL PÉREZ ZAPATA</h4>
+  </div>
+</div>
+</div>
+
+
+ 
+        
+
+
+</body>
+</html>
